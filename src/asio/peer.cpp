@@ -33,8 +33,8 @@
  * OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <protobuf_comm/peer.h>
-#include <protobuf_comm/crypto.h>
+#include <peer.h>
+#include <crypto.h>
 
 #include <boost/lexical_cast.hpp>
 #include <ifaddrs.h>

@@ -34,7 +34,7 @@
  * OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <protobuf_comm/client.h>
+#include <client.h>
 
 #include <boost/lexical_cast.hpp>
 

@@ -34,16 +34,17 @@
  * OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <protobuf_comm/crypto.h>
-#include <protobuf_comm/frame_header.h>
+#include <crypto.h>
+#include "../frame_header.h"
 
 #include <stdexcept>
-#ifdef HAVE_LIBCRYPTO
-#  include <openssl/evp.h>
-#  include <openssl/rand.h>
-#  include <openssl/sha.h>
-#  include <cstring>
-#endif
+
+#include <openssl/evp.h>
+#include <openssl/rand.h>
+#include <openssl/sha.h>
+
+#include <cstring>
+
 
 namespace protobuf_comm {
 #if 0 /* just to make Emacs auto-indent happy */
