@@ -35,7 +35,7 @@
  */
 
 #include <crypto.h>
-#include "../frame_header.h"
+#include "message/frame_header.h"
 
 #include <stdexcept>
 

@@ -5,7 +5,7 @@
 #pragma once
 
 #include <mqtt_client.h>
-#include <message_register.h>
+#include <message/message_register.h>
 
 namespace protobuf_comm {
 #if 0 /* just to make Emacs auto-indent happy */

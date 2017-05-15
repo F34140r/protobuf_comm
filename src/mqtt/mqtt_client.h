@@ -5,7 +5,7 @@
 #pragma once
 
 #include <mosquittopp.h>
-#include <message_register.h>
+#include <message/message_register.h>
 
 #include <google/protobuf/message.h>
 #include <google/protobuf/descriptor.h>
