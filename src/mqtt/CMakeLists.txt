@@ -1,3 +1,5 @@
+find_package (Mosquittopp REQUIRED)
+
 include_directories(protobuf_comm_mqtt
         ${CMAKE_SOURCE_DIR}/src/mqtt
         ${Boost_INCLUDE_DIRS}

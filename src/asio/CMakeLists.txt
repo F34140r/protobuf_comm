@@ -1,3 +1,5 @@
+find_package(OpenSSL REQUIRED)
+
 include_directories(protobuf_comm_asio
         ${CMAKE_SOURCE_DIR}/src/asio
         ${Boost_INCLUDE_DIRS}

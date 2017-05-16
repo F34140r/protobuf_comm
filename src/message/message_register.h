@@ -36,7 +36,7 @@
 #ifndef __PROTOBUF_COMM_MESSAGE_REGISTER_H_
 #define __PROTOBUF_COMM_MESSAGE_REGISTER_H_
 
-#include <frame_header.h>
+#include "frame_header.h"
 
 #include <type_traits>
 #include <google/protobuf/message.h>
